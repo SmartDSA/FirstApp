@@ -1,4 +1,5 @@
 <?
+namespace App\Database;
 
 class DbConnect
 {
@@ -11,6 +12,7 @@ class DbConnect
         private $pass = 'Mucvb-PwRj9k3d+'
     ) {
         echo "<br>DbConnect class<br>";
+        
     }
 
     public function connect()
