@@ -26,4 +26,8 @@ class DbConnect
 
         return $this->dbConnection;
     }
+
+    public function output ($data){
+        echo "Output data = $data";
+    }
 }
